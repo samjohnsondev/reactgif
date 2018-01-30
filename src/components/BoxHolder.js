@@ -54,6 +54,7 @@ class BoxHolder extends Component {
             <div>
                 <div className={'seachContainer'}>
                     <button className={'gifButton'} onClick={this.getGif}>Get Gifs!</button>
+                    <button className={'gifButton'} onClick={this.clearPosts}>Clear Gifs!</button>
                     <input className={'gifInput'} onChange={this.onInputChange} />
                 </div>
                 <div className={'gifContainer'}>
