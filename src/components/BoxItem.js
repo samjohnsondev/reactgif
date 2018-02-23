@@ -1,12 +1,7 @@
-import React, { Component } from 'react';
-import '../Button.css';
+import React from 'react';
 
-class BoxItem extends Component {
-    render(){
-        return(
-            <img alt={this.props.slug} src={this.props.gif}></img>
-        );
-    }
-}
+let BoxItem = (props) => {
+   return <img alt={props.slug} src={props.gif}></img>
+};
 
 export default BoxItem;
